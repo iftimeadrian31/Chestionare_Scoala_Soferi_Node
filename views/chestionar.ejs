@@ -1,0 +1,32 @@
+<% if ( nr_intrebari < 27 && gresite < 5 ) { %>
+<form action="/chestionar" method="POST" >
+    <div class="container"> 
+        <h2 class="intrebare"><%= intrebare["intrebare"] %></h2><br>
+    </div>
+    <label class="container raspuns" >
+        <input type="hidden" name="numar_intrebare" value=<%= nr_intrebare %>>
+        <input type="hidden" id="timp_terminare" value=<%= timpTerminare %>>
+        <input type="checkbox" class="checkbox" name=<%= "intrebare" %> value=<%= 0 %>>
+        <span class="checkmark"></span>
+        <%= intrebare["variante"][0] %>
+    </label><br>
+    <label class="container raspuns">
+        <input type="checkbox" class="checkbox" name=<%= "intrebare" %> value=<%= 1 %>>
+        <span class="checkmark"></span>
+        <%= intrebare["variante"][1] %>
+    </label><br>
+    <label class="container raspuns">
+        <input type="checkbox" class="checkbox" name=<%= "intrebare" %> value=<%= 2 %>>
+        <span class="checkmark"></span>
+        <%= intrebare["variante"][2] %>
+    </label><br>
+    <div class="container">
+        <input type="submit" value="Submit" onclick="increment_count()">
+    </div>
+</form>
+<% } else{ %>
+    <form action="/rezultat-chestionar" method="POST">
+        <h3>Sfarsitul chestionarului</h3>
+        <input type="submit" value="Submit">
+    </form>
+<% } %>

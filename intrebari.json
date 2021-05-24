@@ -1,0 +1,37 @@
+[
+    {
+		"intrebare": "Cum procedează conducătorul auto când iese cu autovehiculul dintr-o curte sau dintr-un garaj pe un drum public?",
+		"variante": ["acordă prioritate pietonilor şi vehiculelor aflate în mers;", "solicită să fie pilotat de o altă persoană;", "foloseşte avertizorul sonor ziua şi pe cel luminos, noaptea;"],
+		"corect": "0"
+	},
+	{
+		"intrebare": "Avertizarea sonoră se foloseşte:",
+		"variante": ["ori de câte ori este necesar, pentru evitarea unui pericol imediat;", "la trecerea pe lângă biciclişti;", "în localităţi, la apropierea de o trecere pentru pietoni;"],
+		"corect": "0"
+	},
+	{
+		"intrebare": "Ce obligaţii aveţi la întâlnirea indicatorului 'Animale'?",
+		"variante": ["să reduceţi viteza numai la semnalul celor care însoţesc animale;", "circulaţi cu atenţie şi, dacă se impune, reduceţi viteza;", "nu aveţi nicio obligaţie, deoarece indicatorul se adresează persoanelor care însoţesc animale;"],
+		"corect": "1"
+	},
+	{
+		"intrebare": "Ce obligaţii aveţi, în calitate de conducător auto?",
+		"variante": ["să circulaţi cu o viteză cel puţin egală celei prescrise de indicatorul 'Viteză minimă obligatorie';", "să nu acceleraţi în intersecţie;", "să circulaţi cu o viteză inferioară celei înscrise în indicatorul 'Viteză minimă obligatorie';"],
+		"corect": "0"
+	},
+	{
+		"intrebare": "Când se efectuează examinarea medicală?",
+		"variante": ["după revenirea dintr-o unitate medicală în care ai fost internat;", "periodic, conform reglementărilor în vigoare;", "la 5 ani de la data ultimei verificări medicale;"],
+		"corect": "1"
+	},
+	{
+		"intrebare": "În care dintre situaţii sunteţi obligat să reduceţi viteza?",
+		"variante": ["la trecerea la nivel cu calea ferată curentă cu bariere;", "la trecerea la nivel cu calea ferată curentă fără bariere;", "la trecerea la nivel cu calea ferată curentă industrială;"],
+		"corect": "0"
+	},
+	{
+		"intrebare": "Viteza se reduce obligatoriu:",
+		"variante": ["la trecerile pentru pietoni", "la semnalul politistului de frontiera", "la intalnirea indicatorului 'Cedeaza trecerea'"],
+		"corect": "1,2"
+	}
+]

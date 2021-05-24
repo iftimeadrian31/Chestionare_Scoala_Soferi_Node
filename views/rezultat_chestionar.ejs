@@ -1,0 +1,5 @@
+<% if(nr_corecte > 21 ) { %>
+    <h2 class="response">Felicitari! Ați promovat examenul cu <%= nr_corecte  %> raspunsuri corecte </h2>
+<% } else { %>
+    <h2 class="response">Din nefericire ati picat examenul cu <%= nr_corecte  %> raspunsuri corecte si <%= nr_gresite %> raspunsuri gresite</h2>
+<% } %>
